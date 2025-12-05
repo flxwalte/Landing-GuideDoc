@@ -587,6 +587,14 @@ section.iconos {
   background: #111;
 }
 
+.carousel-card {
+   position: relative;
+  overflow: hidden;     /* recorta solo lo que se sale por los lados */
+  width: 100%;
+  background: #111;            /* evita superponer otros bloques */
+}
+
+
 .carousel-track {
   display: flex;
   animation: scroll-left 20s linear infinite; /* movimiento continuo */
